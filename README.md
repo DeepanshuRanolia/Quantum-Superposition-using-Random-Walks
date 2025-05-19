@@ -54,32 +54,29 @@ A simulation-based project that compares classical and quantum random walks in 1
 
 ---
 
-## 🧪 Installation
+🧪 Installation
+Clone the repository:
+git clone https://github.com/DeepanshuRanolia/Quantum-Superposition-using-Random-Walks.git
 
- **Clone the repository**:
-   ```bash
-   git clone (https://github.com/DeepanshuRanolia/Quantum-Superposition-using-Random-Walks.git)
+🧪 Experiments to Try
+Vary n (number of steps): Observe how the spread of the probability distribution scales in classical vs quantum walks.
 
- 🧪 Experiments to Try
-Vary n (number of steps): Observe how the spread scales.
+📚 References
+Quantum Walks – Wikipedia
 
----
-## 📚 References
-  Quantum Walks – Wikipedia
+Nielsen & Chuang, Quantum Computation and Quantum Information
 
-  Nielsen & Chuang, Quantum Computation and Quantum Information
+IBM Qiskit Documentation – For quantum simulation
 
-  IBM Qiskit Documentation (for quantum simulation)
-
----
-##📌 Notes
+📌 Notes
 Quantum walks require a quantum simulator (e.g., Qiskit's AerSimulator).
 
-This project uses only simulation — no real quantum hardware needed.
+This project uses only simulation — no real quantum hardware is needed.
 
-Adjust steps variable to control the walk length.
----
-##🙌 Acknowledgements
+Adjust the steps variable in the code to control the walk length.
+
+🙌 Acknowledgements
 Developed by Deepanshu, BS Physics, IIT Jodhpur
-Guided by interest in quantum superposition, algorithms, and quantum computing.
+
+Guided by a deep interest in quantum superposition, algorithms, and quantum computing
 

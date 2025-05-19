@@ -1,0 +1,24 @@
+# Ignore virtual environments
+venv/
+qiskit-env/
+quantum-env/
+qwalk-env/
+quantum_sim_env/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env

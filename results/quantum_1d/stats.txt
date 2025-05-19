@@ -1,0 +1,8 @@
+Quantum Walk Stats (Steps: 10)
+----------------------------------
+Shots: 1024
+Mean position: -0.09
+Standard deviation: 5.49
+Most probable position(s): [6]
+Min position: -8
+Max position: 8

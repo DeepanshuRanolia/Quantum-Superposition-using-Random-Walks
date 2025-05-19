@@ -1,0 +1,5 @@
+Classical Random Walk Results
+Steps per walk: 100
+Number of trials: 1000
+Mean final position: 0.06
+Standard deviation: 10.10

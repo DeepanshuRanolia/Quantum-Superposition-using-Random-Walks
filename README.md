@@ -1,9 +1,12 @@
-# 🌀 Classical vs Quantum Random Walks
+# 🌀 Quantum Walks: Classical vs Quantum Random Walk Simulation
 
-This project explores the concept of quantum superposition through the lens of random walks.
-It compares **classical** and **quantum** random walks in **1D** and **2D**, using simulations
-and visualizations to highlight their key differences in behavior, especially the difference in 
-how they spread over time (i.e., their speed or dispersion rate).
+[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Repo Size](https://img.shields.io/github/repo-size/your-username/quantum-walks)](https://github.com/your-username/quantum-walks)
+[![Stars](https://img.shields.io/github/stars/your-username/quantum-walks.svg?style=social)](https://github.com/your-username/quantum-walks/stargazers)
+
+A simulation-based project that compares classical and quantum random walks in 1D and 2D. Visualizations like histograms are used to illustrate probability distributions and highlight the fundamental difference in spreading behavior between the two types of walks.
+
 
 ---
 
@@ -18,24 +21,26 @@ how they spread over time (i.e., their speed or dispersion rate).
 
 ---
 
-## 🧠 Concepts Illustrated
+## 🔬 Background
 
-### Classical Random Walk
-- Each step depends on a fair coin toss.
-- Position distribution follows a **binomial (or Gaussian)** profile.
-- Spreads at a rate proportional to √n (n = number of steps).
+### 🧍 Classical Random Walk (CRW)
 
-### Quantum Random Walk
-- Exploits **quantum superposition** and **interference**.
-- Uses **coin qubits** and **position qubits**.
-- Probability distribution shows sharp peaks due to interference.
-- Spreads at a rate proportional to n — **quadratically faster** than classical walks.
+- At each step, the walker moves **left or right** (or up/down in 2D) with **equal probability**.
+- Probability distribution forms a **binomial distribution** (approaches Gaussian for large `n`).
+- **Spread** is proportional to √n (diffusive).
+
+### 🧑‍🚀 Quantum Random Walk (QRW)
+
+- Uses quantum **superposition** and **interference**.
+- Incorporates **Hadamard gates** and **coin states**.
+- Results in **non-Gaussian, peaked distributions**.
+- **Spread** is proportional to `n` (ballistic).
 
 ---
 
 ## 📊 Output Samples
 
-### 📌 Classical Walk (1D & 2D)
+### 📌 Classical Walk
 - Smooth Gaussian-like distribution
 - Linear dispersion
 
@@ -45,7 +50,7 @@ how they spread over time (i.e., their speed or dispersion rate).
 - Faster spread and localization
 
 <p align="center">
-  <img src="results/quantum_2d/quantum_walk_2d_bell_surface.png" width="400" alt="Quantum Walk 2D Surface">
+  <img src="results/quantum_2d/quantum_walk_2d_histogram.png" width="400" alt="Quantum Walk 2D Surface">
   <img src="results/quantum_2d/quantum_walk_2d_heatmap.png" width="400" alt="Quantum Walk 2D Heatmap">
 </p>
 
@@ -53,23 +58,24 @@ how they spread over time (i.e., their speed or dispersion rate).
 
 ## 🧪 Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/quantum-random-walks.git
+   cd quantum-random-walks
 
-```bash
-git clone https://github.com/DeepanshuRanolia/https://github.com/DeepanshuRanolia/Quantum-Superposition-using-Random-Walks.git
-cd quantum-random-walks
+🧪 Experiments to Try
+Vary n (number of steps): Observe how the spread scales.
 
-▶️ How to Run
-Run any of the walk simulations directly, for example:
-python quantum_walks/quantum_walk_2d.py
-Plots and simulation results will be saved in the results/ folder and opened automatically
+Compare final histograms between classical and quantum walks.
+
+Extend to biased walks or multi-particle walks.
 
 📚 References
-Quantum Walks — Wikipedia
+Quantum Walks – Wikipedia
 
-Qiskit Documentation
+Nielsen & Chuang, Quantum Computation and Quantum Information
 
-Nayak & Vishwanath, "Quantum Walks on the Line"
+IBM Qiskit Documentation (for quantum simulation)
 
 
 📌 Notes

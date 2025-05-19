@@ -2,8 +2,6 @@
 
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Repo Size](https://img.shields.io/github/repo-size/your-username/quantum-walks)](https://github.com/your-username/quantum-walks)
-[![Stars](https://img.shields.io/github/stars/your-username/quantum-walks.svg?style=social)](https://github.com/your-username/quantum-walks/stargazers)
 
 A simulation-based project that compares classical and quantum random walks in 1D and 2D. Visualizations like histograms are used to illustrate probability distributions and highlight the fundamental difference in spreading behavior between the two types of walks.
 
@@ -58,34 +56,30 @@ A simulation-based project that compares classical and quantum random walks in 1
 
 ## 🧪 Installation
 
-1. **Clone the repository**:
+ **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/quantum-random-walks.git
-   cd quantum-random-walks
+   git clone (https://github.com/DeepanshuRanolia/Quantum-Superposition-using-Random-Walks.git)
 
-🧪 Experiments to Try
+ 🧪 Experiments to Try
 Vary n (number of steps): Observe how the spread scales.
 
-Compare final histograms between classical and quantum walks.
+---
+## 📚 References
+  Quantum Walks – Wikipedia
 
-Extend to biased walks or multi-particle walks.
+  Nielsen & Chuang, Quantum Computation and Quantum Information
 
-📚 References
-Quantum Walks – Wikipedia
+  IBM Qiskit Documentation (for quantum simulation)
 
-Nielsen & Chuang, Quantum Computation and Quantum Information
-
-IBM Qiskit Documentation (for quantum simulation)
-
-
-📌 Notes
+---
+##📌 Notes
 Quantum walks require a quantum simulator (e.g., Qiskit's AerSimulator).
 
 This project uses only simulation — no real quantum hardware needed.
 
 Adjust steps variable to control the walk length.
-
-🙌 Acknowledgements
+---
+##🙌 Acknowledgements
 Developed by Deepanshu, BS Physics, IIT Jodhpur
 Guided by interest in quantum superposition, algorithms, and quantum computing.
 
